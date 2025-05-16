@@ -1,12 +1,10 @@
-// using System;
-
-// class Program
-// {
-//     static void Main(string[] args)
-//     {
-//         Console.WriteLine("Hello World! This is the Journal Project.");
-//     }
-// }
+/*
+    Purpose: This program creates a journal app that gives people a simple prompt to respond to every day, 
+            thereby saving their time and ensuring that they don't miss documenting their daily experiences.
+            This program also attempts the stretch activities by adding and saving other information in the journal entry
+    Author: Onwude James Uchenna     
+   
+*/
 
 using System;
 using System.Collections.Generic;
@@ -16,7 +14,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Creating my  journal instance
+        // Creating an instance of my journal
         Journal journal = new Journal();
 
        

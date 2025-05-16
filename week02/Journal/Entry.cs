@@ -6,7 +6,7 @@ public class Entry
     public string _prompt { get; set; }
     public string _response { get; set; }
 
-    // Constructor for convenience
+    // Creating a constructor for convenience purposes
     public Entry() { }
 
     public Entry(string date, string prompt, string response)
@@ -16,7 +16,7 @@ public class Entry
         _response = response;
     }
 
-    // Convert Entry to a string for saving
+    // Converting Entry to a string for saving
     public override string ToString()
     {
         return $"{_date}|{_prompt}|{_response}";

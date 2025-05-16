@@ -131,4 +131,4 @@ public class Journal
     {
         return _streak;
     }
-}
+} 
