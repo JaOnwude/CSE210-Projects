@@ -34,7 +34,7 @@ class Program
             scriptures.Add(scripture);
         }
 
-        // Choose a random scripture
+        // Select a random scripture
         var random = new Random();
         Scripture chosenScripture = scriptures[random.Next(scriptures.Count)];
 
@@ -42,7 +42,7 @@ class Program
         {
             Console.Clear();
             Console.WriteLine(chosenScripture.GetDisplayText());
-            Console.Write("Press Enter to hide words or type 'quit' to exit: ");
+            Console.Write("Press the ENTER key to hide words or type 'Quit' to exit: ");
             string input = Console.ReadLine();
             if (input.ToLower() == "quit")
             {
