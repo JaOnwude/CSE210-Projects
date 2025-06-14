@@ -1,3 +1,9 @@
+/*
+Author: Onwude James Uchenna
+Purpose: A program that enhances people chances of reflection by proving structure and prompts to guide users through various exercises.
+         This program also attempt to solve the stretch assignment by keeping a log of how many times activities were performed.
+*/
+
 using System;
 using System.Collections.Generic;
 
